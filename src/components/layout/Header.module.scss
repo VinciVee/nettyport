@@ -1,0 +1,24 @@
+@use '../../scss/abstracts/' as *;
+
+.navbar {
+  background: $complementaryColor;
+  color: $primaryColor;
+  margin-bottom: 2rem;
+
+  .navLink {  
+    color: $primaryColor;
+
+    &:hover {
+      color: $brandColor;
+    }
+    &:focus {
+      color: $brandColor;
+    }
+  }
+
+  .icon {
+    margin-bottom: 3px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+}

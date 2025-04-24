@@ -1,0 +1,11 @@
+@use '../../../scss/abstracts/' as *;
+
+.accordionBox {
+  @extend %baseAccordionBox;
+  border-color: $complementaryColor;
+}
+
+.activeBox {
+  @extend .accordionBox;
+  border-color: $brandColor;
+}
